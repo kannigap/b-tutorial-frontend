@@ -15,8 +15,7 @@ env:
   CONTAINER_REPOSITORY: "acrbtutorial001.azurecr.io"
   IMAGE_TAG: "0.0.1-SNAPSHOT"
 
-
-่่jobs:
+jobs:
   unitest:
     name: UnitTest
     runs-on: ubuntu-latest
